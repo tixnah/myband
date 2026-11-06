@@ -17,10 +17,11 @@ Site vitrine dynamique pour un groupe de rock fictif, réalisé dans le cadre de
 - Illustration de la page d'accueil : `rock.png`.
 - Accueil et navigation communs à toutes les pages.
 - Setlist issue de MySQL, avec tri serveur par titre, artiste ou style et filtre de recherche côté navigateur.
+- 3 niveaux de connexion avec hachage des mdp : admin, membre, invité 
 - Gestion de la setlist par un administrateur : ajout, modification et suppression de titres.
-- Téléchargement de paroles PDF par les membres connectés ; ajout et suppression réservés aux administrateurs.
+- Téléchargement de paroles PDF par les membres connectés, ajout et suppression réservés aux administrateurs.
 - Formulaire de contact validé côté serveur et envoyé à l'adresse d'un membre marqué comme contact dans la base.
-- Interface responsive dans un thème rock rouge, noir et gris.
+
 
 ## Technologies et outils
 
