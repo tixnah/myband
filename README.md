@@ -1,6 +1,6 @@
 # MyBand
 
-Site vitrine dynamique pour un groupe de rock fictif, réalisé dans le cadre des TP WEB1. Le projet rassemble les versions TP1 à TP5 dans une application PHP/MySQL unique : identité du groupe, répertoire musical, comptes à privilèges et paroles au format PDF.
+Site vitrine dynamique pour un groupe de rock fictif, réalisé dans le cadre de TP de WEB.
 
 ## Objectifs pédagogiques
 
