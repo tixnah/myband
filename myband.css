@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+    background: #111;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    background: #181818;
+    border-bottom: 3px solid #c41220;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li a {
+    display: block;
+    padding: 26px 16px;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background: #c41220;
+}
+
+.navbar .brandlogo img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.brandtext {
+    padding: 20px 16px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    order: 2;
+}
+
+.navbar .nav-link:last-child {
+    margin-left: auto;
+}
+
+main,
+.main {
+    width: min(1120px, 95%);
+    margin: 100px auto 30px;
+}
+
+main {
+    min-height: calc(100vh - 190px);
+}
+
+main > img {
+    display: block;
+    width: 100%;
+    max-height: 620px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.intro {
+    margin: 10px 0 24px;
+    padding: 32px 20px;
+    background: #1b1b1b;
+    border-top: 3px solid #c41220;
+    text-align: center;
+}
+
+.intro h1 {
+    margin: 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"],
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 8px 0 16px;
+    padding: 12px;
+    border: 1px solid #555;
+    background: #111;
+    color: #eee;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button,
+.formcontact input[type="submit"] {
+    margin: 6px 4px 6px 0;
+    padding: 11px 16px;
+    border: 0;
+    background: #bd1723;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover,
+.formcontact input[type="submit"]:hover {
+    background: #e0202d;
+}
+
+.okbtn {
+    background: #bd1723;
+}
+
+.cancelbtn {
+    background: #444;
+}
+
+.addbtn {
+    background: #292929;
+}
+
+.editbtn {
+    background: #6b2025;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    inset: 0;
+    overflow: auto;
+    padding: 60px 16px 24px;
+    background: rgb(0 0 0 / 75%);
+}
+
+.modal-content {
+    width: min(500px, 100%);
+    margin: 4% auto;
+    background: #191919;
+    border: 1px solid #555;
+}
+
+.dlgheadcontainer {
+    position: relative;
+    margin: 0 0 12px;
+    padding: 20px 16px 8px;
+    background: #252020;
+    text-align: center;
+}
+
+.dlgcontainer {
+    padding: 16px;
+}
+
+.close {
+    position: absolute;
+    top: 6px;
+    right: 14px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.close:hover {
+    color: #e0202d;
+}
+
+.form-error {
+    padding: 10px;
+    border-left: 3px solid #c41220;
+    background: #351719;
+}
+
+.form-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.search-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.search-controls label {
+    white-space: nowrap;
+}
+
+.searchinput {
+    max-width: 440px;
+    font-size: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #191919;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #393333;
+    text-align: center;
+}
+
+th {
+    background: #292323;
+}
+
+tbody tr:nth-child(even) {
+    background: #202020;
+}
+
+.headersort a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.headersort a:hover {
+    color: #ff6268;
+}
+
+.headersearch {
+    text-align: left;
+}
+
+.align-middle {
+    text-align: center;
+}
+
+.formcontact {
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1b1b1b;
+}
+
+.formcontact textarea {
+    min-height: 180px;
+}
+
+.formcontact h2 {
+    margin-top: 0;
+}
+
+.formcontact label {
+    display: block;
+    font-weight: bold;
+}
+
+.contactbar {
+    width: min(720px, 100%);
+    margin: 20px auto;
+    background: #1b1b1b;
+    text-align: center;
+}
+
+.contactbar table {
+    background: transparent;
+}
+
+.contactbar i {
+    color: #e0202d;
+}
+
+.form-success {
+    padding: 10px;
+    border-left: 3px solid #388e3c;
+    background: #19301c;
+}
+
+footer.text-center {
+    padding: 24px;
+    border-top: 3px solid #c41220;
+    background: #1b1b1b;
+    color: #eee;
+    text-align: center;
+}
+
+footer.text-center p {
+    margin: 0;
+}
+
+.animate {
+    animation: animatezoom .25s;
+}
+
+@keyframes animatezoom {
+    from { transform: scale(.96); }
+    to { transform: scale(1); }
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+
+    .navbar .brandlogo img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .brandtext {
+        padding: 10px;
+        font-size: .9rem;
+    }
+
+    .navbar li a {
+        padding: 14px 9px;
+        font-size: .75rem;
+    }
+
+    main,
+    .main {
+        width: 95%;
+        margin-top: 125px;
+    }
+
+    .main table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .search-controls {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .contactbar td {
+        display: block;
+    }
+}
