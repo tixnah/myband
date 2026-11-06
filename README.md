@@ -29,7 +29,7 @@ Site vitrine dynamique pour un groupe de rock fictif, réalisé dans le cadre de
 | --- | --- |
 | Front-end | HTML5, CSS3, JavaScript |
 | Back-end | PHP 7.4+ |
-| Base de données | MySQL 5.7+ / MariaDB, PDO |
+| Base de données | MySQL 5.7+, PDO |
 | Environnement local | WAMP (Apache, PHP, MySQL), phpMyAdmin |
 | Développement et vérification | Visual Studio Code, navigateur et outils de développement |
 | Gestion de versions | Git |
